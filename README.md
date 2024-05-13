@@ -4,6 +4,12 @@ Next generation tools for Web API development.
 
 ## News
 
+### 2024-05-13
+
+Released `0.4.1` of the API Genie CLI tool, which adds build for Windows 8 and
+newer. Read more about them on the
+[website](https://apigenie.pl/techdocs/reference/cli-overview/index.html).
+
 ### 2024-05-05
 
 Released `0.4.0` of the API Genie CLI tool, which provides two more commands,
