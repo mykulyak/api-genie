@@ -4,6 +4,11 @@ Next generation tools for Web API development.
 
 ## News
 
+### 2025-11-13
+
+Released `0.8.2` of the API Genie CLI tool, which uses signed binaries for
+MacOS.
+
 ### 2024-09-02
 
 Released `0.8.0` of the API Genie CLI tool, which adds many improvements. They
