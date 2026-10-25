@@ -4,6 +4,15 @@ Next generation tools for Web API development.
 
 ## News
 
+### 2026-10-10
+
+API Genie 0.9.0 translates OpenAPI, Swagger 2.0, AsyncAPI, Protobuf and GraphQL
+files, and its mock server (`apigenie-mock`, now `apigenie-server`) mocks and
+contract-checks HTTP, WebSocket, MQTT, gRPC and GraphQL APIs. The new GitHub
+Action `mykulyak/api-genie-action` installs the CLI in workflows on Linux, macOS
+and Windows. See the [release notes of
+0.9.0](https://github.com/mykulyak/api-genie/releases/tag/cli-0.9.0).
+
 ### 2026-10-25
 
 The mock server is now `apigenie-server`, with a document store for CRUD
