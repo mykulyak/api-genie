@@ -4,6 +4,15 @@ Next generation tools for Web API development.
 
 ## News
 
+### 2026-10-25
+
+The mock server is now `apigenie-server`, with a document store for CRUD
+resources and several services in one process, and a fourth binary,
+`apigenie-catalog`, keeps a repository's API catalog. `apigenie-generator`
+applies OpenAPI overlays before generating, and the three binaries share one
+table of exit statuses. See the [release notes of
+0.10.0](https://github.com/mykulyak/api-genie/releases/tag/cli-0.10.0).
+
 ### 2025-11-13
 
 Released `0.8.2` of the API Genie CLI tool, which uses signed binaries for
