@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-label="An API description goes into the four API Genie commands, and each produces its own results">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6e7681"/></marker></defs>
+<rect x="0" y="0" width="900" height="380" rx="12" fill="#0d1117"/>
+<text x="30" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1.2" fill="#9198a1">YOUR FILES</text>
+<text x="330" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1.2" fill="#9198a1">API GENIE</text>
+<text x="610" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1.2" fill="#9198a1">WHAT COMES BACK</text>
+<rect x="30" y="110" width="210" height="190" rx="12" fill="#2a200d" stroke="#fca815" stroke-width="1.5"/>
+<text x="50" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#e6edf3">API descriptions</text>
+<text x="50" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#9198a1">OpenAPI</text>
+<text x="50" y="201" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#9198a1">Swagger 2.0</text>
+<text x="50" y="226" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#9198a1">AsyncAPI</text>
+<text x="50" y="251" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#9198a1">Protobuf</text>
+<text x="50" y="276" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#9198a1">GraphQL</text>
+<path d="M240 205.0 C285 205.0, 285 73.0, 326 73.0" fill="none" stroke="#6e7681" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="330" y="44" width="230" height="58" rx="10" fill="#0f2238" stroke="#5aa9f0" stroke-width="1.5"/>
+<text x="350" y="78.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="600" fill="#5aa9f0">apigenie</text>
+<path d="M560 73.0H602" fill="none" stroke="#6e7681" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="610" y="69.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#e6edf3">Lint findings, formatted files,</text>
+<text x="610" y="89.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#e6edf3">rated diffs, contract test results</text>
+<path d="M240 205.0 C285 205.0, 285 155.0, 326 155.0" fill="none" stroke="#6e7681" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="330" y="126" width="230" height="58" rx="10" fill="#0f2238" stroke="#5aa9f0" stroke-width="1.5"/>
+<text x="350" y="160.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="600" fill="#5aa9f0">apigenie-generator</text>
+<path d="M560 155.0H602" fill="none" stroke="#6e7681" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="610" y="151.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#e6edf3">Clients and servers in 6 languages,</text>
+<text x="610" y="171.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#e6edf3">documentation sites, test data</text>
+<path d="M240 205.0 C285 205.0, 285 237.0, 326 237.0" fill="none" stroke="#6e7681" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="330" y="208" width="230" height="58" rx="10" fill="#0f2238" stroke="#5aa9f0" stroke-width="1.5"/>
+<text x="350" y="242.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="600" fill="#5aa9f0">apigenie-server</text>
+<path d="M560 237.0H602" fill="none" stroke="#6e7681" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="610" y="233.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#e6edf3">Mocks for HTTP, WebSocket, MQTT,</text>
+<text x="610" y="253.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#e6edf3">gRPC and GraphQL, contract checks</text>
+<path d="M240 205.0 C285 205.0, 285 319.0, 326 319.0" fill="none" stroke="#6e7681" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="330" y="290" width="230" height="58" rx="10" fill="#0f2238" stroke="#5aa9f0" stroke-width="1.5"/>
+<text x="350" y="324.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="600" fill="#5aa9f0">apigenie-catalog</text>
+<path d="M560 319.0H602" fill="none" stroke="#6e7681" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="610" y="315.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#e6edf3">The APIs of a repository,</text>
+<text x="610" y="335.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#e6edf3">with names and owners (experimental)</text>
+</svg>
