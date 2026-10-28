@@ -1,0 +1,15 @@
+{
+  "title": "API Genie",
+  "description": "Lint, diff, mock, contract-test and generate code for AsyncAPI 3 alongside OpenAPI, GraphQL and Protobuf, from one set of free native binaries. Validates Kafka, AMQP and MQTT 5 traffic against the spec.",
+  "links": {
+    "websiteUrl": "https://apigenie.pl",
+    "docsUrl": "https://apigenie.pl/docs/quickstart",
+    "repoUrl": "https://github.com/mykulyak/api-genie"
+  },
+  "filters": {
+    "language": ["TypeScript", "Java", "Python", "Go", "C#", "Elixir"],
+    "technology": ["Kafka", "AMQP", "MQTT", "WebSocket", "Docker"],
+    "categories": ["cli", "validator", "compare-tool", "mocking-and-testing", "code-generator", "documentation-generator"],
+    "hasCommercial": false
+  }
+}
