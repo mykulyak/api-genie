@@ -125,6 +125,12 @@ Open an [issue](https://github.com/mykulyak/api-genie/issues) with the command, 
 
 ### 2026-11-01
 
+A maintenance release with no changes to the tools: 0.11.1 republishes 0.11.0 to
+check the new local release flow. See the [release notes of
+0.11.1](https://github.com/mykulyak/api-genie/releases/tag/cli-0.11.1).
+
+### 2026-11-01
+
 A Claude Code plugin, released with the CLI, makes coding agents lint every API
 description they edit and check it for breaking changes. `apigenie convert`
 downgrades JSON Schema to draft-07, draft-04 and OpenAPI 3.0, and the linters
