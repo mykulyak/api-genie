@@ -123,6 +123,15 @@ Open an [issue](https://github.com/mykulyak/api-genie/issues) with the command, 
 
 ## News
 
+### 2026-11-01
+
+A Claude Code plugin, released with the CLI, makes coding agents lint every API
+description they edit and check it for breaking changes. `apigenie convert`
+downgrades JSON Schema to draft-07, draft-04 and OpenAPI 3.0, and the linters
+gain a rule for poorly supported schema keywords and an opt-in `privacy`
+ruleset. See the [release notes of
+0.11.0](https://github.com/mykulyak/api-genie/releases/tag/cli-0.11.0).
+
 ### 2026-10-25
 
 The mock server is now `apigenie-server`, with a document store for CRUD
