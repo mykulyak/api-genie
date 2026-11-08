@@ -123,6 +123,15 @@ Open an [issue](https://github.com/mykulyak/api-genie/issues) with the command, 
 
 ## News
 
+### 2026-11-08
+
+`apigenie lint` loads Spectral ruleset files and gains the `camara` and `owasp`
+rulesets, and the commands of `apigenie`, `apigenie-generator` and
+`apigenie-catalog` take `--json`. The generators add Avro payloads for AsyncAPI
+and experimental Rust and Swift targets; `apigenie-mcp` (experimental) and the
+desktop editor's installers ship with the CLI. See the [release notes of
+0.12.0](https://github.com/mykulyak/api-genie/releases/tag/cli-0.12.0).
+
 ### 2026-11-01
 
 A maintenance release with no changes to the tools: 0.11.1 republishes 0.11.0 to
