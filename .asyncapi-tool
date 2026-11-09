@@ -9,7 +9,7 @@
   "filters": {
     "language": ["TypeScript", "Java", "Python", "Go", "C#", "Elixir"],
     "technology": ["Kafka", "AMQP", "MQTT", "WebSocket", "Docker"],
-    "categories": ["cli", "validator", "compare-tool", "mocking-and-testing", "code-generator", "documentation-generator"],
+    "categories": ["cli", "validator", "compare-tool", "mocking-and-testing", "code-generator", "documentation-generator", "converter", "bundler", "editor", "ide-extension"],
     "hasCommercial": false
   }
 }
