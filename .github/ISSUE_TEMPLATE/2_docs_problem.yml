@@ -1,0 +1,49 @@
+name: Documentation problem
+description: A page of the website is wrong, unclear, out of date or missing something.
+title: "docs: <page>: <what is wrong>"
+labels: ["documentation"]
+body:
+  - type: dropdown
+    id: reporter
+    attributes:
+      label: Reported by
+      description: >
+        An AI agent that found this while working for someone picks "An AI agent" and shows the
+        report to that person before sending it.
+      options:
+        - A person
+        - An AI agent
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The address of the page, with the heading if the problem is in one section.
+      placeholder: "https://apigenie.pl/docs/reference/cli/lint#rulesets"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem
+      options:
+        - Wrong (the page says something the tool does not do)
+        - Unclear (I read it and still did not know what to do)
+        - Out of date (a version, a name or an option has changed)
+        - Missing (the page does not cover what I was looking for)
+        - Broken (a link, an example or a page that does not load)
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Quote the sentence or the example, and say what you expected to find.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: What it should say
+      description: Optional. A proposed wording saves a round trip.

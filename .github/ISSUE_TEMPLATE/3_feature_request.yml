@@ -1,0 +1,52 @@
+name: Feature request
+description: Something API Genie should do, or do differently.
+title: "<tool>: <what it should do>"
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: reporter
+    attributes:
+      label: Reported by
+      description: >
+        An AI agent that found this while working for someone picks "An AI agent" and shows the
+        report to that person before sending it.
+      options:
+        - A person
+        - An AI agent
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - apigenie (lint, format, diff, changelog, bundle, convert, ...)
+        - apigenie-generator
+        - apigenie-server (mock server, contract tests)
+        - apigenie-catalog
+        - apigenie-mcp
+        - Desktop editor
+        - VS Code extension
+        - Doc components
+        - GitHub Action
+        - Website
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you are trying to do
+      description: The task, not the feature. The task often has a shorter path than the one proposed.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help
+      description: The command, option, screen or behavior you have in mind, if you have one.
+  - type: textarea
+    id: today
+    attributes:
+      label: How you do it today
+      description: A workaround, another tool, or by hand.
