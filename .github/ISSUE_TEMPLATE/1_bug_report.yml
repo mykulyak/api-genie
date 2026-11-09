@@ -1,0 +1,81 @@
+name: Bug report
+description: A command, the editor, the extension or the website does something wrong.
+title: "<command or screen>: <what goes wrong>"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. The version, the exact command and the smallest file that shows the
+        problem are what make it fixable. Leave out anything confidential: an API description can
+        carry internal hostnames, paths and names.
+  - type: dropdown
+    id: reporter
+    attributes:
+      label: Reported by
+      description: >
+        An AI agent that found this while working for someone picks "An AI agent" and shows the
+        report to that person before sending it.
+      options:
+        - A person
+        - An AI agent
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - apigenie (lint, format, diff, changelog, bundle, convert, ...)
+        - apigenie-generator
+        - apigenie-server (mock server, contract tests)
+        - apigenie-catalog
+        - apigenie-mcp
+        - Desktop editor
+        - VS Code extension
+        - Doc components
+        - GitHub Action
+        - Website
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: "`apigenie --version`, the editor's About box, or the extension's version."
+      placeholder: "0.12.0"
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Operating system
+      placeholder: "macOS 15.1 (arm64), Windows 11, Ubuntu 24.04, or the browser and its version"
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did
+      description: The exact command with its options, or the clicks in the editor or on the page.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: The output, the message or a screenshot. Paste errors as text.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: file
+    attributes:
+      label: The smallest file that shows it
+      description: >
+        An OpenAPI, AsyncAPI, GraphQL or Protobuf document cut down to what triggers the problem,
+        with anything confidential removed. Attach it, or paste it here.
+      render: yaml

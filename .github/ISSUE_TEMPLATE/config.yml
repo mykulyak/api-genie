@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security report
+    url: mailto:contact@apigenie.pl?subject=Security%20report
+    about: A vulnerability in API Genie goes to this address, not into a public issue.
+  - name: Documentation
+    url: https://apigenie.pl/docs/quickstart
+    about: The quickstart, the guides and the reference of every command.
