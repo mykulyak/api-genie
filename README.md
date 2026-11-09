@@ -95,6 +95,20 @@ A breaking change makes `apigenie diff` exit with status 1, so the pull request 
 The [CLI reference](https://apigenie.pl/docs/reference/cli/overview) describes each command and its
 options.
 
+## Coming from another tool
+
+API Genie replaces several single-purpose tools with one set of binaries. Each guide maps the
+configuration, the commands and the CI step, and names what has no counterpart:
+
+| If you use | API Genie does it with | Guide |
+| --- | --- | --- |
+| Spectral | `apigenie lint`, which loads Spectral rulesets | [Migrate from Spectral](https://apigenie.pl/docs/guides/migrate-from-spectral) |
+| Redocly CLI | `apigenie lint`, `apigenie bundle` | [Migrate from Redocly](https://apigenie.pl/docs/guides/migrate-from-redocly) |
+| oasdiff | `apigenie diff`, `apigenie changelog` | [Migrate from oasdiff](https://apigenie.pl/docs/guides/migrate-from-oasdiff) |
+| Buf (lint and breaking) | `apigenie lint`, `apigenie diff` on `.proto` files | [Migrate from Buf](https://apigenie.pl/docs/guides/migrate-from-buf) |
+| Prism | `apigenie-server` | [Migrate from Prism](https://apigenie.pl/docs/guides/migrate-from-prism) |
+| OpenAPI Generator | `apigenie-generator` | [Migrate from OpenAPI Generator](https://apigenie.pl/docs/guides/migrate-from-openapi-generator) |
+
 ## Add the check to CI
 
 [`mykulyak/api-genie-action`](https://github.com/mykulyak/api-genie-action) installs the CLI on
