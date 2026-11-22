@@ -137,6 +137,15 @@ Open an [issue](https://github.com/mykulyak/api-genie/issues) with the command, 
 
 ## News
 
+### 2026-11-22
+
+`apigenie lint` takes a baseline file of known findings, `apigenie run` runs the
+scripts of `apigenie.yaml`, and the CLI says what's new after an upgrade.
+`apigenie-server` says why the mock answered a request the way it did
+(`--log-rules` and the dashboard's Why this answer tab), and the editor saves
+Try it out responses and edits the values of a spec's overlays. See the [release
+notes of 0.13.0](https://github.com/mykulyak/api-genie/releases/tag/cli-0.13.0).
+
 ### 2026-11-08
 
 `apigenie lint` loads Spectral ruleset files and gains the `camara` and `owasp`
